@@ -15,3 +15,6 @@ import BScroll from 'better-scroll'
 var BScroll = require('better-scroll')
 
 安装完成后 就能使用这个基础组件了
+
+这个组件包含两部分 一个是.warpper这么一个外容器 ，当你把组件引入到你的代码是，可以向组件里添加代码
+添加的内容会替换到slot插槽中 然后再组件外部分别传入不同的props就可以滚动了 ，组件能监听不同的事件，方便进行交互操作。
